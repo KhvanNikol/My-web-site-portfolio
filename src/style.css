@@ -1,5 +1,10 @@
 body {
   background: rgb(204, 255, 196);
+  font-family: "Pacifico", cursive;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
 }
 .button {
   background-color: rgba(64, 163, 110, 0.807);

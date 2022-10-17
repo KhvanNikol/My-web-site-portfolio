@@ -2,6 +2,9 @@ body {
   background: rgb(204, 255, 196);
   font-family: "Pacifico", cursive;
 }
+.hero {
+  text-align: center;
+}
 h1 {
   font-size: 50px;
   text-align: center;
@@ -13,4 +16,7 @@ h1 {
 }
 .button:hover {
   background-color: rgb(53, 176, 63);
+}
+.greeting {
+  font-size: 25px;
 }

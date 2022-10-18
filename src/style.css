@@ -1,17 +1,28 @@
+:root {
+  --branding-color: rgb(167, 237, 242);
+  --secondary-button-color: rgb(129, 230, 208);
+  --primary-button-color: rgb(12, 97, 167);
+}
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Oxanium&family=Pacifico&display=swap");
 body {
-  background: rgb(204, 255, 196);
-  font-family: "Pacifico", cursive;
+  background: rgb(228, 249, 250);
 }
 .hero {
   text-align: center;
+  background: rgb(167, 237, 242);
+  color: rgb(7, 72, 84);
+  font-family: "Oxanium", cursive;
+  padding: 100px 20px;
 }
 h1 {
   font-size: 50px;
+  font-weight: bold;
   text-align: center;
 }
 .button {
-  background-color: rgba(64, 163, 110, 0.807);
+  background-color: var(--secondary-button-color);
   border: 1px solid rgb(47, 224, 74);
+  color: var(--primary-button-color);
   border-radius: 20px;
 }
 .button:hover {
@@ -19,4 +30,13 @@ h1 {
 }
 .greeting {
   font-size: 25px;
+}
+.btn-branding {
+  background-color: var(--secondary-button-color);
+  color: rgb(12, 97, 167);
+  border-radius: 10px;
+  margin: 30px 10px;
+  line-height: 28px;
+  font-size: 18px;
+  padding: 12px 20px;
 }

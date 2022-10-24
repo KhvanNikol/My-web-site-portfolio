@@ -97,6 +97,7 @@ a,
 .about-section {
   margin: 30px;
   text-align: center;
+  padding: 0;
 }
 .about-section-content h1 {
   font-size: 60px;

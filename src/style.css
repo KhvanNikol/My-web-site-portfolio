@@ -73,7 +73,7 @@ a,
 .weather-app {
   font-size: 60px;
 }
-@media (max-width: 800px) {
+@media (max-width: 760px) {
   .project-description {
     padding: 0;
     text-align: center;
@@ -83,4 +83,25 @@ a,
   .weather-app {
     font-size: 40px;
   }
+  .my-photo {
+    padding: 0;
+    text-align: center;
+  }
+}
+.about-section-content {
+  margin: 3px;
+  padding: 120px 20px;
+  color: rgb(7, 72, 84);
+  font-family: "Oxanium", cursive;
+}
+.about-section {
+  margin: 30px;
+  text-align: center;
+}
+.about-section-content h1 {
+  font-size: 60px;
+}
+.my-photo {
+  max-width: 70%;
+  border-radius: 10px;
 }

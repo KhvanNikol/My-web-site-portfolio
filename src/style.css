@@ -2,6 +2,7 @@
   --branding-color: rgb(167, 237, 242);
   --secondary-button-color: rgb(129, 230, 208);
   --primary-button-color: rgb(12, 97, 167);
+  --default-font-family: "Oxanium", cursive;
 }
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Oxanium&family=Pacifico&display=swap");
 body {
@@ -57,10 +58,10 @@ h1 {
 }
 
 .matcha-project {
-  max-width: 80%;
+  max-width: 90%;
 }
 .weather-project {
-  max-width: 100%;
+  max-width: 90%;
 }
 .button-links {
   text-align: center;
@@ -96,14 +97,18 @@ a,
   text-align: center;
 }
 .content {
-  margin: 30px;
   text-align: center;
   padding: 0;
+  font-family: var(--default-font-family);
 }
 .content h1 {
   font-size: 60px;
+  margin: 20px 0;
 }
 .my-photo {
   max-width: 70%;
   border-radius: 10px;
+}
+.conten-container {
+  text-align: center;
 }

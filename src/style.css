@@ -92,6 +92,21 @@ a,
   #work-heading {
     font-size: 30px;
   }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .btn-branding {
+    background-color: var(--secondary-button-color);
+    color: rgb(12, 97, 167);
+    border-radius: 10px;
+    margin: 0;
+    line-height: 16px;
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+  .hero {
+    width: fit-content;
+  }
 }
 .content {
   margin: 3px;
@@ -114,7 +129,7 @@ a,
   max-width: 70%;
   border-radius: 10px;
 }
-.conten-container {
+.content-container {
   text-align: center;
 }
 .mail-box {
@@ -132,6 +147,10 @@ footer .social-links {
 }
 footer i {
   padding: 3px;
+  color: rgb(7, 60, 63);
+}
+.gif-corgi {
+  text-align: center;
 }
 footer i:hover {
   color: rgb(13, 168, 179);

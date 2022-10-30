@@ -3,6 +3,7 @@
   --secondary-button-color: rgb(129, 230, 208);
   --primary-button-color: rgb(12, 97, 167);
   --default-font-family: "Oxanium", cursive;
+  --primary-font: rgb(7, 72, 84);
 }
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Oxanium&family=Pacifico&display=swap");
 body {
@@ -115,4 +116,9 @@ a,
 }
 .conten-container {
   text-align: center;
+}
+.mail-box {
+  text-decoration: none;
+  color: var(--primary-font);
+  margin: 2px;
 }

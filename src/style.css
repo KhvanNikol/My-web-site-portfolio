@@ -37,19 +37,19 @@ h1 {
   background-color: var(--secondary-button-color);
   color: rgb(12, 97, 167);
   border-radius: 10px;
-  margin: 30px 10px;
+  margin: 15px 10px;
   line-height: 28px;
   font-size: 18px;
   padding: 12px 20px;
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 100px 50px;
   font-family: "Times New Roman", Times, serif;
 }
 .branding-button-outline {
   color: var(--primary-button-color);
   border-radius: 10px;
-  margin: 30px 10px;
+  margin: 15px 10px;
   line-height: 28px;
   font-size: 18px;
   padding: 12px 20px;
@@ -120,5 +120,20 @@ a,
 .mail-box {
   text-decoration: none;
   color: var(--primary-font);
+  margin: 2px;
+}
+footer {
+  margin: 30px 0;
+}
+footer .social-links {
+  color: rgb(7, 60, 63);
+  font-size: 20px;
+  justify-content: space-around;
+}
+footer i {
+  padding: 3px;
+}
+footer i:hover {
+  color: rgb(13, 168, 179);
   margin: 2px;
 }

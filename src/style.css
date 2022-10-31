@@ -23,12 +23,12 @@ h1 {
 }
 .button {
   background-color: var(--secondary-button-color);
-  border: 1px solid rgb(47, 224, 74);
+  border: 1px solid rgb(47, 189, 224);
   color: var(--primary-button-color);
   border-radius: 20px;
 }
 .button:hover {
-  background-color: rgb(53, 176, 63);
+  background-color: rgb(53, 172, 176);
 }
 .greeting {
   font-size: 25px;
@@ -105,7 +105,10 @@ a,
     padding: 12px 20px;
   }
   .hero {
-    width: fit-content;
+    max-height: 60%;
+  }
+  .content h1 {
+    font-size: 18px;
   }
 }
 .content {
@@ -151,6 +154,8 @@ footer i {
 }
 .gif-corgi {
   text-align: center;
+  display: block;
+  margin: 0;
 }
 footer i:hover {
   color: rgb(13, 168, 179);
